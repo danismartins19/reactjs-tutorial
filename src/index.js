@@ -52,6 +52,7 @@ function Square(props){
             status = 'Próximo jogador: ' + (this.state.xIsNext ? 'X' : 'O');
         }
   
+        
       return (
         <div>
           <div className="status">{status}</div>
